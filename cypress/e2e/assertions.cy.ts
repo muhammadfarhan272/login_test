@@ -1,6 +1,6 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://example.cypress.io')
+    cy.visit(Cypress.env('asertion_url'))
     cy.contains('get').click()
     cy.get('#query-btn',{timeout:6000})
       .should('contain','Button')
