@@ -7,7 +7,7 @@ Go to project directory
 
 Execute following command to install project dependencies
 
-npm install
+<pre><code>npm intall</code></pre>
 Execute following command to install cypress
 
 npm install cypress
